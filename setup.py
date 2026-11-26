@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bless",
-    version="0.3.0",  # Bumped version for Bleak v1.1.1 compatibility
+    version="0.3.1",  # Bumped version for Bleak v1.1.1 compatibility
     author="Kevin Davis",
     author_email="kevincarrolldavis@gmail.com",
     description="A Bluetooth Low Energy Server supplement to Bleak",
@@ -29,31 +29,31 @@ setuptools.setup(
             'python_version<"3.12"'
         ),
         (
-            'winrt-Windows.Devices.Bluetooth==3.1; '
+            'winrt-Windows.Devices.Bluetooth>=3.1; '
             'platform_system=="Windows" and python_version>="3.12"'
         ),
         (
-            'winrt-Windows.Devices.Bluetooth.Advertisement==3.1; '
+            'winrt-Windows.Devices.Bluetooth.Advertisement>=3.1; '
             'platform_system=="Windows" and python_version>="3.12"'
         ),
         (
-            'winrt-Windows.Devices.Bluetooth.GenericAttributeProfile==3.1; '
+            'winrt-Windows.Devices.Bluetooth.GenericAttributeProfile>=3.1; '
             'platform_system=="Windows" and python_version>="3.12"'
         ),
         (
-            'winrt-Windows.Devices.Enumeration==3.1; '
+            'winrt-Windows.Devices.Enumeration>=3.1; '
             'platform_system=="Windows" and python_version>="3.12"'
         ),
         (
-            'winrt-Windows.Foundation==3.1; '
+            'winrt-Windows.Foundation>=3.1; '
             'platform_system=="Windows" and python_version>="3.12"'
         ),
         (
-            'winrt-Windows.Foundation.Collections==3.1; '
+            'winrt-Windows.Foundation.Collections>=3.1; '
             'platform_system=="Windows" and python_version>="3.12"'
         ),
         (
-            'winrt-Windows.Storage.Streams==3.1; '
+            'winrt-Windows.Storage.Streams>=3.1; '
             'platform_system=="Windows" and python_version>="3.12"'
         ),
     ],
